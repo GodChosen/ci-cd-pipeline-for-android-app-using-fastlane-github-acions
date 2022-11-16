@@ -1,7 +1,9 @@
 name: Build Android App
 
-on: pull_request
-
+on: 
+  types: push
+  branch: dev
+  
 jobs:
   build:
     runs-on: ubuntu-latest
