@@ -1,9 +1,9 @@
 name: Build Android App
 
 on: 
-  types: push
-  branch: dev
-  
+  push:
+    branch: dev
+
 jobs:
   build:
     runs-on: ubuntu-latest
