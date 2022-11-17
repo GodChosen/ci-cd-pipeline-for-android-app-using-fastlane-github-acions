@@ -30,3 +30,5 @@ jobs:
         run: flutter pub run build_runner build
       - name: Run the tests
         run: flutter test
+      - name: Generate apk
+        run: flutter build apk
